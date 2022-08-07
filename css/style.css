@@ -1,0 +1,400 @@
+common css start */
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Dancing Script', cursive; */
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #000;
+	overflow-x: hidden;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+
+h3{
+	font-size: 36px;
+	font-weight: 700;
+}
+h4{
+	font-size: 16px;
+	font-weight: 700;
+}
+
+a, a:hover{
+	text-decoration: none;
+	color: #000;
+}
+
+
+.btn-default{
+	height: 50px;
+	width: 170px;
+	line-height: 50px;
+	border-radius: 5px;
+	background-color: #ff5353;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	transition-duration: 0.3s;
+}
+
+.btn-default:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.sec-title{
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.mt-15{
+	margin-top: 10px;
+}
+
+.mt-25{
+	margin-top: 25px;
+}
+.mt-30{
+	margin-top: 30px;
+}
+
+.mt-35{
+	margin-top: 35px;
+}
+.mt-40{
+	margin-top: 40px;
+}
+
+.mt-50{
+	margin-top: 50px;
+}
+.mt-60{
+	margin-top: 60px;
+}
+
+.mt-90{
+	margin-top: 90px;
+}
+.mt-100{
+	margin-top: 100px;
+}
+.mt-150{
+	margin-top: 150px;
+}
+/* common css end */
+
+/* header section css start */
+.top-header{
+	padding: 10px 0;
+	background-color: #fef7f6;
+}
+.top-header span{
+	color: #000;
+	font-size: 12px;
+	text-transform: uppercase;
+	padding: 0 10px;
+	transition-duration: 0.3s;
+}
+.top-header span:hover{
+	color: #ff5353;
+}
+
+.top-header .vl-left{
+	border-left: 2px solid #bab7b6;
+}
+
+.navbar-nav li a:hover{
+	color: #ff5353 !important;
+}
+
+.nav-link.active {
+    color: #ff5353 !important;
+}
+
+.nav-link{
+	display: inline-block;
+}
+
+.dropdown-menu {
+	background-color: #fef7f6;
+}
+.dropdown-item:hover{
+	color: #ff5353;
+}
+
+.navbar{
+	padding: 30px 0;
+	background-color: #fff !important;
+}
+.navbar .nav-link{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	padding: 0 15px !important;
+}
+
+.navMenuIcon{}
+.menuIcon{
+	font-size: 16px;
+	padding: 0 10px;
+	position: relative;
+	display: inline-block;
+}
+.menuIcon:hover{
+	color: #ff5353;
+}
+
+.qtyCount{
+	position: absolute;
+	background-color: red;
+	border-radius: 50%;
+	top: -5px;
+	right: -10px;
+	height: 20px;
+	width: 20px;
+	line-height: 20px;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 10px;
+	color: #fff;
+}
+
+/* header section css end */
+
+/* banner section css start */
+.section-banner{
+	background-image: url('../images/bg-1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner-content span{
+	font-size: 14px;
+	font-weight: 600;
+	color: #565656;
+}
+
+.banner-content h1{
+	font-size: 60px;
+	font-weight: 600;
+	line-height: 1.167;
+}
+/* banner section css end */
+
+/* featured section css start */
+.single-product{
+	position: relative;
+}
+.single-product:hover .action-button{
+	opacity: 1;
+	top: 70%;
+}
+
+.single-product .action-button{
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
+	transition-duration: 0.3s;
+}
+.single-product .action-button a{
+	
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 300;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+	background-color: #fff;
+	transition-duration: 0.3s;
+}
+.single-product .action-button a:hover{
+	background-color: #ff5353;
+	color: #fff;
+}
+.single-product .product-content{}
+.single-product .product-content .product-name{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #888888;
+}
+.single-product .product-content .product-name a{
+	color: #888888;
+}
+.single-product .product-content .product-name a:hover{
+	color: #ff5353;
+}
+.ratings a{
+	color: #ff5353;
+}
+.product-price{
+	font-size: 18px;
+	font-weight: 600;
+}
+/* featured section css end */
+
+/* banner section start */
+.banner-2{
+	background-color: #eae2d8;
+}
+.banner-2 .banner-content{}
+.banner-2 .banner-content h2{
+	font-family: 'Dancing Script', cursive;
+	font-size: 100px;
+	font-weight: 700;
+}
+.banner-2 .banner-content h4{
+	font-size: 42px;
+	font-weight: 300;
+	color: #4a4a4a;
+}
+/* banner section end */
+
+
+/* most popular section start */
+.carousel-indicators{
+	margin-bottom: -70px;
+}
+.carousel-indicators [data-bs-target]{
+	background-color: #ff5353;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	display: block;
+	margin-top: 70px;
+}
+/* most popular section end */
+
+
+/* features section css start */
+.features{}
+.features .feature-inner{
+	padding: 25px;
+	border: 1px solid #ebeef0;
+	transition-delay: 0.3s;
+}
+.features .feature-inner:hover{
+	border: 1px solid #ff5353;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.features .feature-inner h5{
+	font-size: 15px;
+	font-weight: 600;
+}
+/* features section css end */
+
+
+/* blog section css start */
+.blog{}
+.blog .single-post{
+
+}
+.post-content{}
+.post-content .post-date{
+	color: #888888;
+	font-size: 13px;
+	font-weight: 400;
+	transition-duration: 0.3s;
+}
+.post-content .post-date:hover{
+	color: #ff5353;
+}
+
+.post-content h3{
+	font-size: 20px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #e1e1e1;
+}
+.post-content h3 a{
+	transition-duration: 0.3s;
+}
+.post-content h3 a:hover{
+	color: #ff5353;
+}
+.post-content .post-meta a{
+	font-size: 14px;
+	color: #888888;
+	margin-right: 10px;
+	transition-duration: 0.3s;
+}
+.post-content .post-meta a:hover{
+	color: #ff5353;
+}
+/* blog section css end */
+
+
+/* follow us section start */
+.insta-content{
+	position: relative;
+}
+.insta-content:hover,.insta-content::after,.insta-content a i{
+	opacity: 1;
+}
+.insta-content::after{
+	content: "";
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: red;
+	opacity: 0.5;
+	position: absolute;
+	opacity: 0;
+}
+.insta-content a{}
+.insta-content a i{
+	font-size: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	opacity: 0;
+}
+/* follow us section end */
+
+/* footer section css star */
+footer{
+	background-color: #eee7de;
+}
+
+.footer-top{
+	padding: 100px 0 40px 0;
+	border-bottom: 1px solid #d6d8d9;
+}
+.about-us{}
+.widget ul{
+	padding-left: 0 !important;
+}
+.widget h4{
+
+}
+
+.widget-app{
+	margin-bottom: 20px;
+    border-bottom: 1px solid #d6d8d9;
+    padding-bottom: 30px;
+}
+
+.app-button{
+	
+}
+
+.footer-bottom{
+	padding: 20px 0;
+}
+
+/* footer section css end */
